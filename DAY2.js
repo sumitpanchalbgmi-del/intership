@@ -319,11 +319,5 @@
 
 
 
-// Q27
-
-Create your own custom HOF named: 
-repeat() 
-Example 
-repeat(5, sayHello) 
 
 
