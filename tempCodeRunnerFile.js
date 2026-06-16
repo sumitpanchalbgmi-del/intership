@@ -1,7 +1,20 @@
 
+const parent = document.querySelector("#parent");
 
-function student(){
-    
-}
-const s1=new student();
-console.log(s1.__proto__===student.prototpe)
+
+const child = document.querySelector("#child");
+
+parent.addEventListener(
+    "click",
+    ()=>{
+        console.log("parent")
+    }
+);
+
+child.addEventListener(
+    "click",
+    ()=>{
+        console.log("child");
+    }
+);
+ 
