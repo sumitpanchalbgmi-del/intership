@@ -15,10 +15,8 @@
 // Q2
 
 // function calculate(a, b, callback) {
-   
 //     return callback(a, b);
 // }
-
 // function add(x, y) {
 //     return x + y;
 // }
@@ -31,7 +29,6 @@
 //     }
 //     return x / y;
 // }
-
 // let num1 = 10;
 // let num2 = 5;
 
@@ -41,7 +38,7 @@
 
 // Q.3 
 
-// // Mathematical operations (Callbacks)
+
 // const add = (a, b) => a + b;
 // const multiply = (a, b) => a * b;
 // const divide = (a, b) => b !== 0 ? a / b : "Cannot divide by zero";
@@ -135,10 +132,12 @@
 //     }
 // }
 // countdown();
+
 // Q.16 
 
+
 // function delayedGreeting(name) {
-//     console.log("Processing input...");
+//     console.log("Processing ");
 //     setTimeout(() => {
 //         console.log(`Hello, ${name}! Welcome back.`);
 //     }, 2000);
@@ -157,35 +156,6 @@
 //     setTimeout(callback, seconds * 1000);
 // }
 
-
-// wait(1.5, () => {
-//     console.log("after 1.5 seconds.");
-// });
-
-// Q.21
-// function login(user, cb) {
-//     setTimeout(() => { console.log("Logged In"); cb(user); }, 500);
-// }
-// function getUserData(user, cb) {
-//     setTimeout(() => { console.log(`Got details for ${user}`); cb({ uid: 42 }); }, 500);
-// }
-// function getOrders(uid, cb) {
-//     setTimeout(() => { console.log(`Fetched orders for UUID: ${uid}`); cb(["Order_1", "Order_2"]); }, 500);
-// }
-// function showOrders(orders, cb) {
-//     setTimeout(() => { console.log("Rendering orders:", orders); cb(true); }, 500);
-// }
-
-
-// login("Nitin", (user) => {
-//     getUserData(user, (profile) => {
-//         getOrders(profile.uid, (ordersList) => {
-//             showOrders(ordersList, (success) => {
-//                 if(success) console.log("Workflow sequence completely finished.");
-//             });
-//         });
-//     });
-// });
 
 // // Q.22 
 // 
@@ -229,6 +199,35 @@
 //     setTimeout(() => clearInterval(intervalId), 5100);
 // }
 // startLiveClock();
+// wait(1.5, () => {
+//     console.log("after 1.5 seconds.");
+// });
+
+// Q.21
+// function login(user, cb) {
+//     setTimeout(() => { console.log("Logged In"); cb(user); }, 500);
+// }
+// function getUserData(user, cb) {
+//     setTimeout(() => { console.log(`Got details for ${user}`); cb({ uid: 42 }); }, 500);
+// }
+// function getOrders(uid, cb) {
+//     setTimeout(() => { console.log(`Fetched orders for UUID: ${uid}`); cb(["Order_1", "Order_2"]); }, 500);
+// }
+// function showOrders(orders, cb) {
+//     setTimeout(() => { console.log("Rendering orders:", orders); cb(true); }, 500);
+// }
+
+
+// login("Nitin", (user) => {
+//     getUserData(user, (profile) => {
+//         getOrders(profile.uid, (ordersList) => {
+//             showOrders(ordersList, (success) => {
+//                 if(success) console.log("Workflow sequence completely finished.");
+//             });
+//         });
+//     });
+// });
+
 // Q.33
 
 
