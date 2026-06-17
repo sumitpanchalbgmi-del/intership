@@ -1,20 +1,11 @@
 
-const parent = document.querySelector("#parent");
 
 
-const child = document.querySelector("#child");
-
-parent.addEventListener(
-    "click",
-    ()=>{
-        console.log("parent")
-    }
-);
-
-child.addEventListener(
-    "click",
-    ()=>{
-        console.log("child");
-    }
-);
- 
+fetch("https://dummyjson.com/products")
+.then((response)=>{
+     return reponse.json();
+}).then((data)=>{
+    console.log(data);
+}).catch((error)=>{
+    console.log(error);
+});
