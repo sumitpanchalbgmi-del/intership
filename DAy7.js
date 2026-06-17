@@ -213,3 +213,37 @@
 // const getWeather = (city) => new Promise((resolve) => {
 //   setTimeout(() => resolve(`Weather for ${city} is 25°C`), 500);
 // });
+
+// INterview output
+
+// Q1
+// B and A
+
+// Q2
+
+// A,c
+
+// Q3
+
+// 25
+
+// Q4
+ //error
+
+ // Q5
+
+ // BOOM
+
+ // Q6
+ // 100
+ 
+ // Q7
+ // A and B
+
+ // Q8
+ // 1,2,3
+ // Q9
+ // failed
+
+ // Q 10 
+ //Start, End, A, 
