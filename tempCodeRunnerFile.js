@@ -1,11 +1,14 @@
 
+async function getUser() {
+    return {
+        name:"ankush",
+        rollno:53,
+    }
+    async function Use() {
+        const User=await  getUser();
+        
+    }
 
-
-fetch("https://dummyjson.com/products")
-.then((response)=>{
-     return reponse.json();
-}).then((data)=>{
-    console.log(data);
-}).catch((error)=>{
-    console.log(error);
-});
+    
+}
+console.log(getUser())
